@@ -1,5 +1,17 @@
 # 人话 renhua
 
+**English:** Rewrite AI-sounding Chinese into Chinese a real person would write, without changing a single fact.
+
+- 32 Chinese-specific AI writing patterns, ranked by strength (strong tells fixed on sight, weak ones only when they cluster)
+- Keeps the warmth: de-AI should not mean cold, flat sentences
+- Tone follows context: casual for social posts, plain and polite for emails and docs
+- Optional voice profile (`me.md`) so rewrites sound like you, not just "less AI"
+- [PROMPT.md](PROMPT.md): a plain prompt version for Doubao, DeepSeek, Kimi or ChatGPT
+
+Install: copy this folder to `~/.claude/skills/renhua/`, then ask Claude: "用 renhua 把这段改成人话：…". Structure and severity tiers are adapted from [humanizer](https://github.com/blader/humanizer) (MIT).
+
+---
+
 把一眼就是 AI 写的中文，改成真人会说的话。事实一个字不改。
 
 适用于 Claude Code、Claude 桌面版等支持 Agent Skills 的工具。
