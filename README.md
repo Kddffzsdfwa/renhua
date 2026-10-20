@@ -31,7 +31,11 @@ AI 写的中文有一股味儿：
 
 更多例子见 [examples.md](examples.md)。
 
-## 安装
+## 在豆包、DeepSeek 里用
+
+不用 Claude 也行。打开 [PROMPT.md](PROMPT.md)，把里面那段提示词复制给豆包、DeepSeek、Kimi、ChatGPT，再贴上要改的文字。豆包可以建一个智能体存起来，ChatGPT 可以放进自定义指令。
+
+## 在 Claude 里安装
 
 把整个文件夹放到 `~/.claude/skills/renhua/`，然后对 Claude 说：
 
