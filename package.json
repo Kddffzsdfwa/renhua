@@ -1,0 +1,8 @@
+{
+  "name": "renhua",
+  "version": "1.4.0",
+  "description": "人话：把 AI 腔的中文改成真人会说的话；check.js 扫出 AI 腔并打分",
+  "type": "module",
+  "bin": { "renhua-check": "check.js" },
+  "license": "MIT"
+}
